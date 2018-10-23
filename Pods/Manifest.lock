@@ -1,0 +1,20 @@
+PODS:
+  - CRRefresh (1.0.9)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - CRRefresh
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CRRefresh
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  CRRefresh: b1c53f32bcb3edef8d60ef414a329b06dc6af34f
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: d73f32bb4f5c66a528e10ee0cb90ccc2d481c4c3
+
+COCOAPODS: 1.5.3

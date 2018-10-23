@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51D0F81DD49142B3EAD80A37 /* Pods_MotorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FCBF312E5E9529C74AAAAF /* Pods_MotorControl.framework */; };
+		7D83FE8E21077C94005F7296 /* UUIDKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D83FE8D21077C94005F7296 /* UUIDKey.swift */; };
+		7D83FE9021078294005F7296 /* BlueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D83FE8F21078294005F7296 /* BlueTableViewCell.swift */; };
+		7D83FE9221078EEC005F7296 /* DeviceControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D83FE9121078EEC005F7296 /* DeviceControlViewController.swift */; };
 		7DA00EE621074AF90018EADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA00EE521074AF90018EADE /* AppDelegate.swift */; };
 		7DA00EE821074AF90018EADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA00EE721074AF90018EADE /* ViewController.swift */; };
 		7DA00EEB21074AF90018EADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA00EE921074AF90018EADE /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		7DA00EF021074AFA0018EADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA00EEE21074AFA0018EADE /* LaunchScreen.storyboard */; };
 		7DA00EFB21074AFA0018EADE /* MotorControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA00EFA21074AFA0018EADE /* MotorControlTests.swift */; };
 		7DA00F0621074AFA0018EADE /* MotorControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA00F0521074AFA0018EADE /* MotorControlUITests.swift */; };
+		7DA00F1421074C6E0018EADE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7DA00F1321074C6E0018EADE /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35C55C29CF7931165878C4BC /* Pods-MotorControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotorControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotorControl/Pods-MotorControl.release.xcconfig"; sourceTree = "<group>"; };
+		59FCBF312E5E9529C74AAAAF /* Pods_MotorControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotorControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EB5D9DD9132A061FA95B0E /* Pods-MotorControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotorControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotorControl/Pods-MotorControl.debug.xcconfig"; sourceTree = "<group>"; };
+		7D83FE8D21077C94005F7296 /* UUIDKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUIDKey.swift; sourceTree = "<group>"; };
+		7D83FE8F21078294005F7296 /* BlueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTableViewCell.swift; sourceTree = "<group>"; };
+		7D83FE9121078EEC005F7296 /* DeviceControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlViewController.swift; sourceTree = "<group>"; };
 		7DA00EE221074AF90018EADE /* MotorControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA00EE521074AF90018EADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DA00EE721074AF90018EADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		7DA00F0121074AFA0018EADE /* MotorControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA00F0521074AFA0018EADE /* MotorControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorControlUITests.swift; sourceTree = "<group>"; };
 		7DA00F0721074AFA0018EADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DA00F1321074C6E0018EADE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D0F81DD49142B3EAD80A37 /* Pods_MotorControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,8 @@
 				7DA00EF921074AFA0018EADE /* MotorControlTests */,
 				7DA00F0421074AFA0018EADE /* MotorControlUITests */,
 				7DA00EE321074AF90018EADE /* Products */,
+				DAA5BC14DD04F3738CDC0E62 /* Pods */,
+				BCF03768DA45150C50585B24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +112,16 @@
 		7DA00EE421074AF90018EADE /* MotorControl */ = {
 			isa = PBXGroup;
 			children = (
+				7D83FE8D21077C94005F7296 /* UUIDKey.swift */,
+				7DA00F1321074C6E0018EADE /* Podfile */,
 				7DA00EE521074AF90018EADE /* AppDelegate.swift */,
 				7DA00EE721074AF90018EADE /* ViewController.swift */,
 				7DA00EE921074AF90018EADE /* Main.storyboard */,
 				7DA00EEC21074AFA0018EADE /* Assets.xcassets */,
 				7DA00EEE21074AFA0018EADE /* LaunchScreen.storyboard */,
 				7DA00EF121074AFA0018EADE /* Info.plist */,
+				7D83FE8F21078294005F7296 /* BlueTableViewCell.swift */,
+				7D83FE9121078EEC005F7296 /* DeviceControlViewController.swift */,
 			);
 			path = MotorControl;
 			sourceTree = "<group>";
@@ -125,6 +144,23 @@
 			path = MotorControlUITests;
 			sourceTree = "<group>";
 		};
+		BCF03768DA45150C50585B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59FCBF312E5E9529C74AAAAF /* Pods_MotorControl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAA5BC14DD04F3738CDC0E62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78EB5D9DD9132A061FA95B0E /* Pods-MotorControl.debug.xcconfig */,
+				35C55C29CF7931165878C4BC /* Pods-MotorControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DA00F0A21074AFA0018EADE /* Build configuration list for PBXNativeTarget "MotorControl" */;
 			buildPhases = (
+				2F76CEE6D3A0F0A314F4E42A /* [CP] Check Pods Manifest.lock */,
 				7DA00EDE21074AF90018EADE /* Sources */,
 				7DA00EDF21074AF90018EADE /* Frameworks */,
 				7DA00EE021074AF90018EADE /* Resources */,
+				E794881AA1FC46F33CC661F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +269,7 @@
 			files = (
 				7DA00EF021074AFA0018EADE /* LaunchScreen.storyboard in Resources */,
 				7DA00EED21074AFA0018EADE /* Assets.xcassets in Resources */,
+				7DA00F1421074C6E0018EADE /* Podfile in Resources */,
 				7DA00EEB21074AF90018EADE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,11 +290,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F76CEE6D3A0F0A314F4E42A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotorControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E794881AA1FC46F33CC661F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MotorControl/Pods-MotorControl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CRRefresh/CRRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CRRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotorControl/Pods-MotorControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DA00EDE21074AF90018EADE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D83FE9221078EEC005F7296 /* DeviceControlViewController.swift in Sources */,
+				7D83FE8E21077C94005F7296 /* UUIDKey.swift in Sources */,
+				7D83FE9021078294005F7296 /* BlueTableViewCell.swift in Sources */,
 				7DA00EE821074AF90018EADE /* ViewController.swift in Sources */,
 				7DA00EE621074AF90018EADE /* AppDelegate.swift in Sources */,
 			);
@@ -428,9 +511,11 @@
 		};
 		7DA00F0B21074AFA0018EADE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EB5D9DD9132A061FA95B0E /* Pods-MotorControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL633NJ6T5;
 				INFOPLIST_FILE = MotorControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +530,11 @@
 		};
 		7DA00F0C21074AFA0018EADE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C55C29CF7931165878C4BC /* Pods-MotorControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL633NJ6T5;
 				INFOPLIST_FILE = MotorControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
